@@ -11,14 +11,6 @@ knight1 = "n"
 knight2 = "N"
 
 
-# This function is used to ensure the bishops are on opposite colors
-def is_even(x):
-    if x % 2 == 0:
-        return True
-    else:
-        return False
-
-
 # Loop to keep trying combinations until a legal position is reached
 while True:
     position = [queen, king, rook1, rook2, bishop_light, bishop_dark, knight1, knight2]
